@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Business applications, Power BI dashboards, automation and architecture case studies by Swan Deman.">
+<meta name="author" content="Swan Deman">
+<meta property="og:title" content="Portfolio - Swan Deman">
+<meta property="og:description" content="Business applications, Power BI dashboards, automation and architecture case studies by Swan Deman.">
+<meta property="og:type" content="website">
+<title>Portfolio - Swan Deman</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="index.html"><span class="brand-mark">SD</span><span>Swan Deman</span></a>
+<nav class="nav"><a class="" href="index.html">Home</a><a class="" href="about.html">About</a><a class="active" href="portfolio.html">Portfolio</a><a class="" href="experience.html">Experience</a><a class="" href="skills.html">Skills</a><a class="" href="contact.html">Contact</a></nav>
+<div class="header-actions">
+<button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle light and dark mode">◐</button>
+<button id="menuBtn" class="icon-btn mobile-toggle" type="button" aria-label="Open navigation">☰</button>
+</div></div>
+<nav id="mobileNav" class="mobile-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="experience.html">Experience</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a></nav>
+</header>
+<main>
+<section class="section"><div class="container">
+<div class="section-head"><div class="kicker">Portfolio</div><h1>Business applications, analytics and automation.</h1>
+<p>Each case study explains the project origin, stakeholder requirement, my role, architecture, workflows and business value.</p></div>
+<div class="grid-2"><article class="project-card card">
+<div class="project-cover"><img src="assets/images/tos/admin.png" alt="Terminal Operating System"></div>
+<div class="project-body"><span class="badge origin">Requested solution</span><h3>Terminal Operating System</h3><p>A configurable operational platform with documented architecture and parking intelligence.</p><div class="tags"><span class="tag">Power Apps</span><span class="tag">SharePoint</span><span class="tag">Power Automate</span></div><a class="btn primary" href="projects/tos.html">Open project</a></div>
+</article><article class="project-card card">
+<div class="project-cover"><img src="assets/images/tradecars/admin-home.png" alt="Trade Cars Administration"></div>
+<div class="project-body"><span class="badge origin">Self-initiated</span><h3>Trade Cars Administration</h3><p>Vehicle reception, stock, documentation, departures and automated reporting.</p><div class="tags"><span class="tag">Power Apps</span><span class="tag">Office Scripts</span><span class="tag">Automation</span></div><a class="btn primary" href="projects/tradecars-administration.html">Open project</a></div>
+</article><article class="project-card card">
+<div class="project-cover"><img src="assets/images/tradecars/inspection-workflow.png" alt="Trade Cars Inspection"></div>
+<div class="project-body"><span class="badge origin">Self-initiated</span><h3>Trade Cars Inspection</h3><p>Guided mobile inspections, CMR assistance, photographs, signatures and damage reporting.</p><div class="tags"><span class="tag">Power Apps</span><span class="tag">Mobile UX</span><span class="tag">Power Automate</span></div><a class="btn primary" href="projects/tradecars-inspection.html">Open project</a></div>
+</article><article class="project-card card">
+<div class="project-cover"><img src="assets/images/rosslare/simulator.png" alt="Rosslare Performance & Simulator"></div>
+<div class="project-body"><span class="badge origin">Continuous improvement</span><h3>Rosslare Performance & Simulator</h3><p>Operational KPIs, delay investigation and predictive resource simulation.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Power Query</span></div><a class="btn primary" href="projects/rosslare.html">Open project</a></div>
+</article><article class="project-card card">
+<div class="project-cover"><img src="assets/images/dover/dashboard.png" alt="Dover Turnaround Performance"></div>
+<div class="project-body"><span class="badge origin">Continuous improvement</span><h3>Dover Turnaround Performance</h3><p>Port time, sea time, schedule, volumes, dwell time and team-level performance.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Operational KPIs</span></div><a class="btn primary" href="projects/dover.html">Open project</a></div>
+</article><article class="project-card card">
+<div class="project-cover"><img src="assets/images/gptw/bi-summary.png" alt="Great Place to Work Platform"></div>
+<div class="project-body"><span class="badge origin">Requested solution</span><h3>Great Place to Work Platform</h3><p>Anonymous feedback application connected to team-level Power BI analytics.</p><div class="tags"><span class="tag">Power Apps</span><span class="tag">Power BI</span><span class="tag">SharePoint</span></div><a class="btn primary" href="projects/gptw.html">Open project</a></div>
+</article></div>
+</div></section>
+
+<section class="section alt" id="architecture">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Architecture & automation</div>
+      <h2>How I structure operational solutions.</h2>
+      <p>I design the data model, business rules, application modules, role management, integrations and automation before translating them into Power Platform solutions.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section alt"><div class="container">
+<div class="section-head"><div class="kicker">TOS architecture evidence</div><h2>A documented, modular and configurable solution.</h2>
+<p>The Microsoft Visio documentation covers the data architecture, user workflows, parking-allocation engine, slot-suggestion engine, scoring logic, settings, permissions and operational processes.</p></div>
+<div class="grid-3">
+<article class="card"><h3>Modular data model</h3><p>Operational trailers, check-in records, departures, physical slots, block rules and runtime allocations are separated into dedicated data responsibilities.</p></article>
+<article class="card"><h3>Dynamic allocation</h3><p>Parking capacity is recalculated according to active departures, operational status, priority, occupancy and time to departure.</p></article>
+<article class="card"><h3>Scoring and safety</h3><p>Suggestions combine type compatibility, allocation availability, grouping, continuity, overflow penalties, fragmentation and dangerous-goods restrictions.</p></article>
+<article class="card"><h3>Auditability</h3><p>Lifecycle states and timestamps are retained to support operational traceability.</p></article>
+<article class="card"><h3>Configurable behaviour</h3><p>Parking strategy and operational settings can evolve without redesigning the entire application.</p></article>
+<article class="card"><h3>Role-based access</h3><p>Operator, supervisor, deputy and administrator roles control functions, approvals and communication.</p></article>
+</div></div></section>
+
+<section class="section"><div class="container">
+<div class="section-head"><div class="kicker">Solution flow</div><h2>Connected Microsoft 365 components.</h2></div>
+<div class="arch">
+<div class="arch-node">Operational users</div><div class="arch-arrow">→</div>
+<div class="arch-node">Power Apps</div><div class="arch-arrow">→</div>
+<div class="arch-node">SharePoint data model</div><div class="arch-arrow">→</div>
+<div class="arch-node">Power Automate & Office Scripts</div><div class="arch-arrow">→</div>
+<div class="arch-node">Emails, documents & Power BI</div>
+</div></div></section>
+
+<section class="section alt"><div class="container">
+<div class="section-head"><div class="kicker">Selected diagrams</div><h2>Architecture, allocation and suggestion logic.</h2></div>
+<div class="pdf-preview">
+<figure><img src="assets/images/architecture/architecture-overview.jpg" alt="Overall TOS data architecture"><figcaption>Overall application and data architecture.</figcaption></figure>
+<figure><img src="assets/images/architecture/parking-allocation-engine.jpg" alt="Parking block allocation engine"><figcaption>Dynamic parking-block allocation engine.</figcaption></figure>
+<figure><img src="assets/images/architecture/slot-suggestion-engine.jpg" alt="Slot suggestion engine"><figcaption>UNACC slot-suggestion workflow.</figcaption></figure>
+<figure><img src="assets/images/architecture/slot-scoring-logic.jpg" alt="Slot scoring logic"><figcaption>Multi-factor slot-scoring logic.</figcaption></figure>
+</div></div></section>
+
+<section class="section"><div class="container">
+<div class="section-head"><div class="kicker">Automation examples</div><h2>Automation is part of the solution architecture.</h2></div>
+<div class="grid-3">
+<article class="card"><h3>Document generation</h3><p>Automatic damage reports, operational reports and structured outputs.</p></article>
+<article class="card"><h3>Email workflows</h3><p>Stock reporting, dangerous-goods documentation, pets and operational notifications.</p></article>
+<article class="card"><h3>Data orchestration</h3><p>SharePoint, Excel Online and Office Scripts used to structure and distribute operational information.</p></article>
+</div></div></section>
+
+</main>
+<footer class="footer"><div class="container footer-inner">
+<span>© <span data-year></span> Swan Deman</span>
+<span>Digital Transformation Specialist</span>
+</div></footer>
+<div id="lightbox" class="lightbox"><button type="button" aria-label="Close image">×</button><img alt=""></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
